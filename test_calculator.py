@@ -1,3 +1,4 @@
+
 import unittest
 from calculator import add, subtract
 class TestCalculator(unittest.TestCase):
@@ -5,5 +6,3 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(2, 3), 5)
     def test_subtract(self):
         self.assertEqual(subtract(5, 2), 3)
-if name == ‚__main__‘:
-    unittest.main()
