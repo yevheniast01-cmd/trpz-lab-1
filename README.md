@@ -10,3 +10,6 @@
 
 ## Запуск тестів
     python -m unittest test_calculator.py
+## Опис функцій
+- add(x, y) - повертає суму x та y
+- subtract(x, y) - повертає різницю x та y
